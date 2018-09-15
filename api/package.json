@@ -1,0 +1,43 @@
+{
+  "name": "locward-api",
+  "version": "0.0.1",
+  "description": "Location sharing social network api",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taroninak/locward.git"
+  },
+  "keywords": [
+    "location",
+    "share",
+    "place",
+    "position",
+    "network",
+    "social",
+    "api",
+    "connection"
+  ],
+  "author": {
+    "name": "Taron Petrosyan",
+    "email": "tgtaron@gmail.com",
+    "url": "http://taroninak.tk"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/taroninak/locward/issues"
+  },
+  "homepage": "https://github.com/taroninak/locward#readme",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.14"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "sinon": "^6.3.3"
+  }
+}
